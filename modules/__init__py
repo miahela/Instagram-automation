@@ -1,2 +1,0 @@
-from .selenium_manager import SeleniumManager
-from .proxy_manager import setup_proxy
