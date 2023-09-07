@@ -1,19 +1,16 @@
 {
   "web_driver": {
-    "path": "./drivers/opera_driver.exe",
-    "headless": false
-  },
-  "proxy": {
-    "host": "resi.rainproxy.io",
-    "port": "9090",
-    "username": "8yn4lm9edef2svn-country-es-sid-22671226",
-    "password": "nw8A9TWC43Njpb5"
+    "user_data_path": "D:\\projekti\\automatio_n_scrapers\\instagram-auto-reply\\config\\user_data_dir",
+    "headless": false,
+    "wait_time": 50
   },
   "instagram": {
     "username": "fred1_23fred",
     "password": "Mihaela13.",
-    "message_text": "Thank you for reaching out! How can I assist you today?"
+    "country_code": "MK",
+    "country_name": "North Macedonia",
+    "messages": ["Thank you for reaching out! How can I assist you today? \u00f0", "Hi izvini za porakive, testiram edna programa zato mi trebase da vidam dali ce se isprata, thanks"],
+    "photos": ["D:\\projekti\\automatio_n_scrapers\\instagram-auto-reply\\config\\photos\\test.jpg"]
   },
-  "wait_time": 20,
-  "log_file": "./logs/activity.log"
+  "load_wait_time":5
 }

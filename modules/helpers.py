@@ -28,6 +28,6 @@ def setup_logger():
 
 
 def read_json_file(file_name):
-    with open(file_name) as f:
+    with open(file_name, 'r', encoding='utf-8') as f:
         data = json.load(f)
     return data
