@@ -1,6 +1,7 @@
 config/*
+!config/settings_example.json
 
-modules/__pycache__/
+__pycache__/
 
 error.log
 info.log
