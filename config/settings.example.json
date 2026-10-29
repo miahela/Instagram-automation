@@ -1,0 +1,20 @@
+{
+  "web_driver": {
+    "user_data_path": "./browser-profile",
+    "headless": false,
+    "wait_time": 50
+  },
+  "instagram": {
+    "username": "example_user",
+    "password": "replace-with-your-password",
+    "country_code": "US",
+    "country_name": "United States",
+    "messages": [
+      "Hello from the demo."
+    ],
+    "photos": [
+      "./sample-photo.jpg"
+    ]
+  },
+  "load_wait_time": 5
+}
